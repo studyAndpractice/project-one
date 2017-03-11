@@ -1,0 +1,7 @@
+*.txt
+logs
+*.log
+.grunt
+node_modules
+bower_components
+dist

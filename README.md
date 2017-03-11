@@ -1,2 +1,1 @@
-# exersice
-there is nothing
+jd designer department exercise project 

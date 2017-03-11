@@ -10,7 +10,7 @@ class App extends React.Component{
         return (
           <div className="container">
             <section className="jumbotron">
-              <h3 className="jumbotron-heading">Searfdch Gfdsiffdssthub Users</h3>
+              <h3 className="jumbotron-heading">yld</h3>
             </section>
           </div>
         )

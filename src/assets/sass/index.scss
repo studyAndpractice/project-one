@@ -1,0 +1,6 @@
+@import 'icons';
+
+
+body{
+	@include sprite($icon-annoucement);
+}

@@ -1,0 +1,266 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-annoucement-name: 'icon-annoucement';
+$icon-annoucement-x: 71px;
+$icon-annoucement-y: 72px;
+$icon-annoucement-offset-x: -71px;
+$icon-annoucement-offset-y: -72px;
+$icon-annoucement-width: 18px;
+$icon-annoucement-height: 18px;
+$icon-annoucement-total-width: 159px;
+$icon-annoucement-total-height: 142px;
+$icon-annoucement-image: '~img/_icons.png';
+$icon-annoucement: (71px, 72px, -71px, -72px, 18px, 18px, 159px, 142px, '~img/_icons.png', 'icon-annoucement', );
+$icon-best-activity-name: 'icon-best-activity';
+$icon-best-activity-x: 54px;
+$icon-best-activity-y: 106px;
+$icon-best-activity-offset-x: -54px;
+$icon-best-activity-offset-y: -106px;
+$icon-best-activity-width: 18px;
+$icon-best-activity-height: 16px;
+$icon-best-activity-total-width: 159px;
+$icon-best-activity-total-height: 142px;
+$icon-best-activity-image: '~img/_icons.png';
+$icon-best-activity: (54px, 106px, -54px, -106px, 18px, 16px, 159px, 142px, '~img/_icons.png', 'icon-best-activity', );
+$icon-btn-go-name: 'icon-btn-go';
+$icon-btn-go-x: 0px;
+$icon-btn-go-y: 72px;
+$icon-btn-go-offset-x: 0px;
+$icon-btn-go-offset-y: -72px;
+$icon-btn-go-width: 33px;
+$icon-btn-go-height: 34px;
+$icon-btn-go-total-width: 159px;
+$icon-btn-go-total-height: 142px;
+$icon-btn-go-image: '~img/_icons.png';
+$icon-btn-go: (0px, 72px, 0px, -72px, 33px, 34px, 159px, 142px, '~img/_icons.png', 'icon-btn-go', );
+$icon-clock-name: 'icon-clock';
+$icon-clock-x: 18px;
+$icon-clock-y: 106px;
+$icon-clock-offset-x: -18px;
+$icon-clock-offset-y: -106px;
+$icon-clock-width: 18px;
+$icon-clock-height: 18px;
+$icon-clock-total-width: 159px;
+$icon-clock-total-height: 142px;
+$icon-clock-image: '~img/_icons.png';
+$icon-clock: (18px, 106px, -18px, -106px, 18px, 18px, 159px, 142px, '~img/_icons.png', 'icon-clock', );
+$icon-custom-hover-name: 'icon-custom-hover';
+$icon-custom-hover-x: 86px;
+$icon-custom-hover-y: 106px;
+$icon-custom-hover-offset-x: -86px;
+$icon-custom-hover-offset-y: -106px;
+$icon-custom-hover-width: 14px;
+$icon-custom-hover-height: 14px;
+$icon-custom-hover-total-width: 159px;
+$icon-custom-hover-total-height: 142px;
+$icon-custom-hover-image: '~img/_icons.png';
+$icon-custom-hover: (86px, 106px, -86px, -106px, 14px, 14px, 159px, 142px, '~img/_icons.png', 'icon-custom-hover', );
+$icon-custom-name: 'icon-custom';
+$icon-custom-x: 72px;
+$icon-custom-y: 106px;
+$icon-custom-offset-x: -72px;
+$icon-custom-offset-y: -106px;
+$icon-custom-width: 14px;
+$icon-custom-height: 14px;
+$icon-custom-total-width: 159px;
+$icon-custom-total-height: 142px;
+$icon-custom-image: '~img/_icons.png';
+$icon-custom: (72px, 106px, -72px, -106px, 14px, 14px, 159px, 142px, '~img/_icons.png', 'icon-custom', );
+$icon-daily-activity-name: 'icon-daily-activity';
+$icon-daily-activity-x: 107px;
+$icon-daily-activity-y: 72px;
+$icon-daily-activity-offset-x: -107px;
+$icon-daily-activity-offset-y: -72px;
+$icon-daily-activity-width: 18px;
+$icon-daily-activity-height: 18px;
+$icon-daily-activity-total-width: 159px;
+$icon-daily-activity-total-height: 142px;
+$icon-daily-activity-image: '~img/_icons.png';
+$icon-daily-activity: (107px, 72px, -107px, -72px, 18px, 18px, 159px, 142px, '~img/_icons.png', 'icon-daily-activity', );
+$icon-empty-info-name: 'icon-empty-info';
+$icon-empty-info-x: 0px;
+$icon-empty-info-y: 0px;
+$icon-empty-info-offset-x: 0px;
+$icon-empty-info-offset-y: 0px;
+$icon-empty-info-width: 159px;
+$icon-empty-info-height: 72px;
+$icon-empty-info-total-width: 159px;
+$icon-empty-info-total-height: 142px;
+$icon-empty-info-image: '~img/_icons.png';
+$icon-empty-info: (0px, 0px, 0px, 0px, 159px, 72px, 159px, 142px, '~img/_icons.png', 'icon-empty-info', );
+$icon-help-new-normal-name: 'icon-help-new-normal';
+$icon-help-new-normal-x: 0px;
+$icon-help-new-normal-y: 124px;
+$icon-help-new-normal-offset-x: 0px;
+$icon-help-new-normal-offset-y: -124px;
+$icon-help-new-normal-width: 16px;
+$icon-help-new-normal-height: 18px;
+$icon-help-new-normal-total-width: 159px;
+$icon-help-new-normal-total-height: 142px;
+$icon-help-new-normal-image: '~img/_icons.png';
+$icon-help-new-normal: (0px, 124px, 0px, -124px, 16px, 18px, 159px, 142px, '~img/_icons.png', 'icon-help-new-normal', );
+$icon-help-new-name: 'icon-help-new';
+$icon-help-new-x: 143px;
+$icon-help-new-y: 72px;
+$icon-help-new-offset-x: -143px;
+$icon-help-new-offset-y: -72px;
+$icon-help-new-width: 16px;
+$icon-help-new-height: 18px;
+$icon-help-new-total-width: 159px;
+$icon-help-new-total-height: 142px;
+$icon-help-new-image: '~img/_icons.png';
+$icon-help-new: (143px, 72px, -143px, -72px, 16px, 18px, 159px, 142px, '~img/_icons.png', 'icon-help-new', );
+$icon-help-why-normal-name: 'icon-help-why-normal';
+$icon-help-why-normal-x: 52px;
+$icon-help-why-normal-y: 72px;
+$icon-help-why-normal-offset-x: -52px;
+$icon-help-why-normal-offset-y: -72px;
+$icon-help-why-normal-width: 19px;
+$icon-help-why-normal-height: 19px;
+$icon-help-why-normal-total-width: 159px;
+$icon-help-why-normal-total-height: 142px;
+$icon-help-why-normal-image: '~img/_icons.png';
+$icon-help-why-normal: (52px, 72px, -52px, -72px, 19px, 19px, 159px, 142px, '~img/_icons.png', 'icon-help-why-normal', );
+$icon-help-why-name: 'icon-help-why';
+$icon-help-why-x: 33px;
+$icon-help-why-y: 72px;
+$icon-help-why-offset-x: -33px;
+$icon-help-why-offset-y: -72px;
+$icon-help-why-width: 19px;
+$icon-help-why-height: 19px;
+$icon-help-why-total-width: 159px;
+$icon-help-why-total-height: 142px;
+$icon-help-why-image: '~img/_icons.png';
+$icon-help-why: (33px, 72px, -33px, -72px, 19px, 19px, 159px, 142px, '~img/_icons.png', 'icon-help-why', );
+$icon-msgs-name: 'icon-msgs';
+$icon-msgs-x: 0px;
+$icon-msgs-y: 106px;
+$icon-msgs-offset-x: 0px;
+$icon-msgs-offset-y: -106px;
+$icon-msgs-width: 18px;
+$icon-msgs-height: 18px;
+$icon-msgs-total-width: 159px;
+$icon-msgs-total-height: 142px;
+$icon-msgs-image: '~img/_icons.png';
+$icon-msgs: (0px, 106px, 0px, -106px, 18px, 18px, 159px, 142px, '~img/_icons.png', 'icon-msgs', );
+$icon-mycustom-name: 'icon-mycustom';
+$icon-mycustom-x: 89px;
+$icon-mycustom-y: 72px;
+$icon-mycustom-offset-x: -89px;
+$icon-mycustom-offset-y: -72px;
+$icon-mycustom-width: 18px;
+$icon-mycustom-height: 18px;
+$icon-mycustom-total-width: 159px;
+$icon-mycustom-total-height: 142px;
+$icon-mycustom-image: '~img/_icons.png';
+$icon-mycustom: (89px, 72px, -89px, -72px, 18px, 18px, 159px, 142px, '~img/_icons.png', 'icon-mycustom', );
+$icon-tobedone-name: 'icon-tobedone';
+$icon-tobedone-x: 33px;
+$icon-tobedone-y: 91px;
+$icon-tobedone-offset-x: -33px;
+$icon-tobedone-offset-y: -91px;
+$icon-tobedone-width: 18px;
+$icon-tobedone-height: 12px;
+$icon-tobedone-total-width: 159px;
+$icon-tobedone-total-height: 142px;
+$icon-tobedone-image: '~img/_icons.png';
+$icon-tobedone: (33px, 91px, -33px, -91px, 18px, 12px, 159px, 142px, '~img/_icons.png', 'icon-tobedone', );
+$icon-tools-name: 'icon-tools';
+$icon-tools-x: 36px;
+$icon-tools-y: 106px;
+$icon-tools-offset-x: -36px;
+$icon-tools-offset-y: -106px;
+$icon-tools-width: 18px;
+$icon-tools-height: 18px;
+$icon-tools-total-width: 159px;
+$icon-tools-total-height: 142px;
+$icon-tools-image: '~img/_icons.png';
+$icon-tools: (36px, 106px, -36px, -106px, 18px, 18px, 159px, 142px, '~img/_icons.png', 'icon-tools', );
+$icon-user-name: 'icon-user';
+$icon-user-x: 125px;
+$icon-user-y: 72px;
+$icon-user-offset-x: -125px;
+$icon-user-offset-y: -72px;
+$icon-user-width: 18px;
+$icon-user-height: 18px;
+$icon-user-total-width: 159px;
+$icon-user-total-height: 142px;
+$icon-user-image: '~img/_icons.png';
+$icon-user: (125px, 72px, -125px, -72px, 18px, 18px, 159px, 142px, '~img/_icons.png', 'icon-user', );
+$spritesheet-width: 159px;
+$spritesheet-height: 142px;
+$spritesheet-image: '~img/_icons.png';
+$spritesheet-sprites: ($icon-annoucement, $icon-best-activity, $icon-btn-go, $icon-clock, $icon-custom-hover, $icon-custom, $icon-daily-activity, $icon-empty-info, $icon-help-new-normal, $icon-help-new, $icon-help-why-normal, $icon-help-why, $icon-msgs, $icon-mycustom, $icon-tobedone, $icon-tools, $icon-user, );
+$spritesheet: (159px, 142px, '~img/_icons.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

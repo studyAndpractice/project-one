@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./../assets/sass/index.scss";
+
 
 class App extends React.Component{
     constructor() {
